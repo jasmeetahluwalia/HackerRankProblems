@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ArrayProblems;
 
 namespace HackerRankInterviewPrepApp
 {
@@ -219,7 +221,6 @@ namespace HackerRankInterviewPrepApp
         public static int CalcHowManyDays(string date_str)
         {
 
-            // Your code goes here.
             DateTime todaydate = DateTime.Now;
             DateTime result;
             int days = 0;
@@ -235,5 +236,7 @@ namespace HackerRankInterviewPrepApp
             }
             return days;
         }
+
+       
     }
 }
